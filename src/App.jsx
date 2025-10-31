@@ -390,17 +390,17 @@ const Presentation = () => {
               <p className="font-semibold">Severity Levels:</p>
               <div className="grid grid-cols-3 gap-2 mt-2 text-xs">
                 <div className="bg-yellow-100 p-2 rounded">
-                  <p className="font-bold">LOW (30-49)</p>
+                  <p className="font-bold">LOW (<30)</p>
                   <p>Minor anomalies</p>
                   <p>Yellow highlight</p>
                 </div>
                 <div className="bg-orange-100 p-2 rounded">
-                  <p className="font-bold">MEDIUM (50-69)</p>
+                  <p className="font-bold">MEDIUM (30-50)</p>
                   <p>Suspicious activity</p>
                   <p>Orange highlight</p>
                 </div>
                 <div className="bg-red-100 p-2 rounded">
-                  <p className="font-bold">HIGH (70-100)</p>
+                  <p className="font-bold">HIGH (>50)</p>
                   <p>Critical threats</p>
                   <p>Red highlight + alert</p>
                 </div>
